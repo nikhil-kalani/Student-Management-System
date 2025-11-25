@@ -1,0 +1,112 @@
+/* Basic, clean styling for the demo app */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 920px;
+    max-width: 95%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(29, 31, 36, 0.06);
+}
+
+h2 {
+    margin-top: 0;
+    color: #222;
+}
+
+/* Form */
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
+.form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 6px 0 12px 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2f80ed;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form button:hover {
+    opacity: 0.95;
+}
+
+/* Buttons / links */
+.top-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #2f80ed;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+a.btn.danger {
+    background: #ef4444;
+}
+
+a.action {
+    color: #0b5ed7;
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+a.action.danger {
+    color: #d73737;
+}
+
+/* Table */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.styled-table thead tr {
+    background: #f1f5f9;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.styled-table tbody tr:hover {
+    background: #fbfdff;
+}
+
+/* Small helpers */
+.error {
+    color: #b00020;
+    font-weight: 600;
+    margin-top: 8px;
+}
